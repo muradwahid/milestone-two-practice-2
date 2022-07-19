@@ -1,0 +1,90 @@
+/* google font poppin */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:wght@400;500&display=swap');
+/* root */
+:root{
+    --font:#3A3A3A;
+    --btn-bg:#E02C6D
+}
+/* common style */
+*{margin: 0;padding: 0;}
+body{
+    font-family: 'Poppins', sans-serif
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* header part */
+.main-menu nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.logo .logo-tittle{
+    color: var(--font);
+    font-size: 24px;
+    font-weight: 700;
+}
+.sub-menu ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.sub-menu>ul>li>a{
+    text-decoration: none;
+    color: var(--font);
+    font-size: 16px;
+    font-weight: 600;
+}
+.sub-menu>ul>li>a>img{
+    width: 26px;
+    height: 26px;
+}
+/* header details */
+.header-details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    column-gap: 113px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.article-info .article-tittle{
+    color: var(--font);
+    font-size: 52px;
+}
+.article-info>p{
+    font-weight: 500;
+    color: var(--font);
+    margin-bottom: 20px ;
+}
+.article-info button{
+    padding: 8px 12px;
+    background-color: var(--btn-bg);
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.camera-img{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    height: 480px;
+}
+/* lolos section */
+.logos-container{
+    margin-top: 60px;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px 0;
+}
+/* popular collection style*/
